@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: #ffffff;
+}
+
+.conteudo{
+    width: 100%;
+    padding: 205px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
