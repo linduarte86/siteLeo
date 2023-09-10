@@ -3,41 +3,140 @@ body {
 }
 
 main {
-    padding: 10px; 
+    padding: 0px;
 }
 
 footer {
     background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     color: white;
     text-align: center;
-    padding: 1px;
     padding-top: 20px;
 }
 
 section {
-    height: 90vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: auto;
 }
 
-#conteudo{
+.section1 {
+    background-color: #abc2c249;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.section2 {
+    background-color: #abc2c249;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.section3 {
+    background-image: url(../img/img5Leo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+
+.suaDuvida {
+    display: flex;
+    justify-content:center;
+    position: relative;
+}
+
+.duvida {
+    color: white;
+    position: absolute; 
+    top: 50%;    
+}
+
+#conteudo {
     margin: 30px auto;
-    color: blue;
-    text-align: center;
+    color: rgb(26, 29, 32);
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.titulo{
+.titulo {
     padding-top: 30px;
     margin: 50px auto;
     text-align: center;
-    color:red ;
+    color: rgba(10, 6, 248, 0.945);
 }
 
-#bg{
-    background-color: rgb(224, 231, 236);
+
+.bgImagem {
+    background-image: url(../img/img5Leo.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 350px;
+    padding-bottom: 350px;
+  }
+
+
+
+.filter {
+    -webkit-backdrop-filter: sepia(15px);
+    /* Safari 9+ */
+    backdrop-filter: sepia(5px);
+    /* Chrome and Opera */
+    background-color: rgba(116, 111, 98, 0.178);
 }
 
-.filter{
-    -webkit-backdrop-filter: sepia(15px); /* Safari 9+ */
-    backdrop-filter: sepia(5px); /* Chrome and Opera */
-    background-color:rgba(158, 146, 114, 0.178);
+.linkZap {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 90px;
+    right: 40px;
+    background-color: #14f868;
+    color: #FFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
 }
 
+.separator {
+    color: #c5a47e;
+    margin: 0 auto 20px;
+    max-width: 240px;
+    text-align: center;
+    position: relative;
+}
+
+.separator:before,
+.separator:after {
+    display: block;
+    width: 40%;
+    content: " ";
+    margin-top: 10px;
+    border: 1px solid #c5a47e;
+}
+
+.separator:before {
+    float: left;
+}
+
+.separator:after {
+    float: right;
+}
+
+.separator-danger {
+    color: #e78b90;
+}
+
+.separator-danger:before,
+.separator-danger:after {
+    border-color: #e78b90;
+}
