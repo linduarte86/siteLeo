@@ -1,13 +1,18 @@
 Criar dominio site Léo:
 
-www.cezariosociedadeindividual.com.....
+Domínio:
+www.cezariosociedadeindividual.com.br
 
-
-
-
-
+Conta:
 Assinatura. Combo 1
+advleomandocezario@hotmail.com 
 Senha: 12345678Lc@
+
+FTP:
+Host: ftp.cezariosociedadeindividual.com.br
+Host provisório: web128.f1.k8.com.br
+Usuário: cezariosociedade
+Senha: advLcftp86@
 
 E-mail: contatos@escritorioleomando.extenção
 

@@ -66,7 +66,7 @@
                 <h2 class="titulo">Quem Somos</h2>
                 <article id="conteudo">
                     <p class="h3">O Escritório Leomando Cezário Sociedade Individual de advocacia, esta no mercado a mais
-                        de 10 anos trabalhando para garantir o direito de seus cliente, com um vasta experiência no
+                        de 10 anos trabalhando para garantir o direito de seus cliente, com uma vasta experiência no
                         direito de família, já ajudei mais de 100 crianças e adolescente a ter sua pensão alimentícia
                         garantida.
                         Contamos com profissionais altamente capacitados na matéria, preocupados com a constante
