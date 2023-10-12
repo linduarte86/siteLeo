@@ -3,7 +3,7 @@
 */
 
 // Função escreve título letra por letra / Ativo função piscar
-const titulo = document.querySelector('h1');
+/*const titulo = document.querySelector('h1');
 
 function escreveTitulo(elemento) {
      const textoArray = elemento.innerHTML.split('');
@@ -16,11 +16,11 @@ function escreveTitulo(elemento) {
 
     /*setInterval(() => {
         elemento.style.visibility = (elemento.style.visibility == 'hidden' ? '' : 'hidden');
-    }, 700);*/
+    }, 700);
 
 }
 escreveTitulo(titulo);
 // -------------------------------------------------
 
 
-// -------------------------------------------------
+// -------------------------------------------------*/

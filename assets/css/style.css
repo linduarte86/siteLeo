@@ -6,83 +6,72 @@ main {
     padding: 0px;
 }
 
+header {
+    width: 100%;
+    height: 600px;
+    display:block;
+    color: #FFF;
+    background-image: url(../img/design-de-interiores-de-uma-arquitetura-antiga.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    width: 100%;
+    height: auto;
+}
+
+#quem-somos {
+    background: linear-gradient(81.02deg, #140802 0.26%, #301303 12.12%, #391703 21.95%, #3A1803 30.06%, #3C1904 36.73%, #3F1B04 42.27%, #421C05 46.96%, #451E06 51.11%, #482106 55.01%, #4C2307 58.94%, #4F2508 63.22%, #532809 68.13%, #572A0A 73.97%, #5A2C0A 81.03%, #5E2F0B 89.61%, #61310C 100%);
+}
+
+#area-atuacao, #sobre-me {
+    background: linear-gradient(180deg, #1B1C1E 4.71%, #2C2D2F 94.32%);
+}
+
+.quemSomos,.areaAtuacao,.sobreMe {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #C09969; 
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sobreMe {
+    width: 100%;
+    height: 600px;
+}
+
+
+.logoH3 {
+    padding-top: 60px; 
+}
+
+.p-header {
+    font-size:larger;
+    font-family:sans-serif;
+}
+
+.conteudoHeader {
+    width: 80%;
+    padding-top: 170px;
+}
+
 footer {
     background-color: black;
-    position: fixed;
+    position:relative;
     bottom: 0;
     left: 0;
     right: 0;
     color: white;
     text-align: center;
     padding-top: 20px;
-}
-
-section {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    height: auto;
-}
-
-.section1 {
-    background-color: #abc2c249;
-    padding-top: 0px;
     padding-bottom: 5px;
 }
-
-.section2 {
-    background-color: #abc2c249;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-
-.section3 {
-    background-image: url(../img/img5Leo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    background-size: cover;
-    padding-top: 350px;
-    padding-bottom: 350px;
-}
-
-.suaDuvida {
-    display: flex;
-    justify-content:center;
-    position: relative;
-}
-
-.duvida {
-    color: white;
-    position: absolute; 
-    top: 50%;    
-}
-
-#conteudo {
-    margin: 30px auto;
-    color: rgb(26, 29, 32);
-    text-align: justify;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.titulo {
-    padding-top: 30px;
-    margin: 50px auto;
-    text-align: center;
-    color: rgba(10, 6, 248, 0.945);
-}
-
-
-.bgImagem {
-    background-image: url(../img/img5Leo.png);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: center;
-    background-size: cover;
-    padding-top: 350px;
-    padding-bottom: 350px;
-  }
-
-
 
 .filter {
     -webkit-backdrop-filter: sepia(15px);
@@ -97,13 +86,13 @@ section {
     width: 60px;
     height: 60px;
     bottom: 90px;
-    right: 40px;
+    right: 30px;
     background-color: #14f868;
     color: #FFF;
     border-radius: 30px;
-    text-align: center;
+    text-align:center;
     font-size: 40px;
-    box-shadow: 1px 1px 2px #888;
+    box-shadow: 1px 1px 2px #9b9292;
     z-index: 1000;
 }
 
@@ -133,10 +122,10 @@ section {
 }
 
 .separator-danger {
-    color: #e78b90;
+    color: #C09969;
 }
 
 .separator-danger:before,
 .separator-danger:after {
-    border-color: #e78b90;
+    border-color: #C09969;
 }
