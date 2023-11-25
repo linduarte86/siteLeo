@@ -47,7 +47,7 @@
     </header>
 
     <!-- Main -->
-    <main class="filter">
+    <main>
 
         <!-- Seção 1: Quem Somos -->
         <section id="quem-somos">
